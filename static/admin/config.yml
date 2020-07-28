@@ -8,10 +8,19 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+publish_mode: editorial_workflow
+
 media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "news"
+    label: "News"
+    folder: "src/pages/news"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
