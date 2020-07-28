@@ -9,6 +9,7 @@ featuredimage: /img/flavor_wheel.jpg
 tags:
   - flavor
   - tasting
+  - lunch
 ---
 ![flavor wheel](/img/flavor_wheel.jpg)
 
